@@ -18,5 +18,19 @@
     <ClCompile Include="Lab7P3_GerardoCano.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Resena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Producto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Producto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
