@@ -1,5 +1,6 @@
 #pragma once
 #include "Producto.h"
+#include <iostream>
 #include <string>
 using namespace std;
 class Pelicula :public Producto<Pelicula> {
@@ -25,7 +26,7 @@ public:
 		return duracion;
 	}
 	void tostring() {
-
+		cout << "\n- " << Producto::getId() << " " << titulo << " - " << director << " - En stock: " << Producto::getStock() << "\n";
 	}
 	~Pelicula() {
 		Producto::~Producto();

@@ -1,6 +1,6 @@
 #pragma once
 template <typename T>
-class Producto{
+class Producto {
 	int id;
 	float precio;
 	int stock;
@@ -19,13 +19,16 @@ public:
 	float getPrecio() {
 		return precio;
 	}
+	void setStock(int stock) {
+		this->stock = stock;
+	}
 	int getStock() {
 		return stock;
 	}
 	~Producto() {
 
 	}
-	
 
-}
+
+};
 

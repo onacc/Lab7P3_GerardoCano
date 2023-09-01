@@ -1,8 +1,9 @@
 #pragma once
 #include "Producto.h"
+#include <iostream>
 #include <string>
 using namespace std;
-class Libro:public Producto<Libro>{
+class Libro :public Producto<Libro> {
 	string titulo;
 	string autor;
 	int numpaginas;
@@ -10,7 +11,7 @@ public:
 	Libro() {
 
 	}
-	Libro(string titulo, string autor, int numpaginas, int id, float precio,int stock):Producto(id,precio,stock) {
+	Libro(string titulo, string autor, int numpaginas, int id, float precio, int stock) :Producto(id, precio, stock) {
 		this->titulo = titulo;
 		this->autor = autor;
 		this->numpaginas;
@@ -26,6 +27,9 @@ public:
 	}
 	~Libro() {
 		Producto::~Producto();
+	}
+	void toString() {
+		cout << "\n- " << Producto::getId() << " " << titulo << " - " << autor << " - En stock: " << Producto::getStock()<<"\n";
 	}
 
 };

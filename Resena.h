@@ -13,7 +13,7 @@ public:
 
 	}
 	Resena(T val, string comentario, int calificacion) {
-		cout<<""
+			
 	}
 	Producto getProducto() {
 		return producto;
@@ -25,7 +25,7 @@ public:
 		return calificacion;
 	}
 	void toString() {
-
+		cout << "\n - " << comentario << " Calificacion: " << calificacion<<"\n";
 	}
 	
 
