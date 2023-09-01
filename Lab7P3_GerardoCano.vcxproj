@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Disco.cpp" />
     <ClCompile Include="Lab7P3_GerardoCano.cpp" />
+    <ClCompile Include="Libro.cpp" />
+    <ClCompile Include="Pelicula.cpp" />
     <ClCompile Include="Producto.cpp" />
     <ClCompile Include="Resena.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Disco.h" />
+    <ClInclude Include="Libro.h" />
+    <ClInclude Include="Pelicula.h" />
     <ClInclude Include="Producto.h" />
     <ClInclude Include="Resena.h" />
   </ItemGroup>

@@ -17,5 +17,8 @@ public:
 	int getCalificacion() {
 		return calificacion;
 	}
+	void toString() {
+
+	}
 };
 
