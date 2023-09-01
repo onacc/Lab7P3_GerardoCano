@@ -1,5 +1,5 @@
 #pragma once
-//template <typename T>
+template <typename T>
 class Producto{
 	int id;
 	float precio;
@@ -25,6 +25,7 @@ public:
 	~Producto() {
 
 	}
+	
 
-};
+}
 

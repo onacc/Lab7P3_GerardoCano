@@ -2,7 +2,7 @@
 #include "Producto.h"
 #include <string>
 using namespace std;
-class Libro:public Producto{
+class Libro:public Producto<Libro>{
 	string titulo;
 	string autor;
 	int numpaginas;

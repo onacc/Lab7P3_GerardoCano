@@ -10,8 +10,8 @@ using namespace std;
 void menu() {
 	int opcion;
 	//vector<Producto<T>*> productos;
-	vector<Producto*> productos;
-	Libro* libro;
+	//vector<Producto*> productos;
+	Libro *ptrlibro;
 	do {
 		cout << "\nMenu Principal:\n\n1. Agregar Producto\n2. Modificar stock\n3. Listar productos disponibles\n4.Agregar resena\n5.Ver resenas de producto\n0.Salir\n\nIngrese una opcion: ";
 		cin >> opcion;
@@ -22,6 +22,7 @@ void menu() {
 			switch(opcion) {
 			case 1:
 				Libro libro();
+				//ptrlibro = &libro;
 				break;
 			case 2:
 				break;

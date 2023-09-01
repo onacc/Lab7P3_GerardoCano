@@ -2,7 +2,7 @@
 #include "Producto.h"
 #include <string>
 using namespace std;
-class Pelicula:public Producto{
+class Pelicula :public Producto<Pelicula> {
 	string titulo;
 	string director;
 	int duracion;
@@ -10,8 +10,8 @@ public:
 	Pelicula() {
 
 	}
-	Pelicula(string titulo, string director,int duracion, int id, float precio, int stock):Producto(id,precio,stock) {
-		this->titulo=titulo;
+	Pelicula(string titulo, string director, int duracion, int id, float precio, int stock) :Producto(id, precio, stock) {
+		this->titulo = titulo;
 		this->director = director;
 		this->duracion = duracion;
 	}

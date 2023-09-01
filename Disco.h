@@ -2,7 +2,7 @@
 #include "Producto.h"
 #include <string>
 using namespace std;
-class Disco:public Producto{
+class Disco:public Producto<Disco>{
 	string titulo;
 	string artista;
 	int numCanciones;
